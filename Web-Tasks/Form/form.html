@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+    <h1 style="text-align: center;"><b>Registration Form</b></h1>
+    <div class="form">
+        <form>
+            <div>
+                <label for="name"><b>Name:<span style="color: red;">*</span></b></label>
+                <input type="text" id="name" name="name" placeholder=" Enter your name" required>
+            </div><br>
+
+            <div>
+                <label for="email"><b>E-mail:<span style="color: red;">*</span></b></label>
+                <input type="text" id="name" name="E-mail" placeholder=" Enter your email"required>
+            </div><br>
+
+            <div> <label for="Num"><b>Mobile No:<span style="color:red;">*</span></b></label>
+                <input type="number" id="name" name="num" placeholder=" Enter your Mobile number" required>
+            </div><br>
+
+            <div> <label for="Num"><b>Tel-Number:</b></label>
+                <input type="tel" id="name" name="tel" placeholder=" Enter your tele number">
+            </div><br>
+
+            <div><label for="password"><b>Password:<span style="color:red;">*</span></b></label>
+                <input type="password" id="name" name="password"placeholder=" Enter your password" required>
+            </div><br>
+
+            <div> <label for="password"><b> Confirm Password:<span style="color:red;">*</span></b></label>
+                <input type="password" id="name" name="password" placeholder=" confirm password" required>
+            </div><br>
+
+
+            <div><label for="gender"><b>Select Gender:</b></label>
+                Male:<input type="radio" id="male" name="Male">
+                Female:<input type="radio" id="female" name="Male"></div><br>
+
+            <div> <label for="date"><b>Date of Birth:<span style="color:red;">*</span></b></label>
+                <input type="date" id="name" name="date" placeholder=" Enter your DOB"required>
+            </div><br>
+            <div>
+                <label><b>College</b></label>
+            <select name="College">
+                <option value="Select">Select</option>
+                <option value="BIET">BIET</option>
+                <option value="UBDT">UBDT</option>
+                <option value="JAIN">JAIN</option>
+                <option value="GMIT">GMIT</option>
+              </select>
+            </div><br>
+
+            <div><label for="skills"><b>Skills:<span style="color:red;">*</span></b></label>
+                HTML<input type="checkbox" id="box" name="box" required>
+                CSS<input type="checkbox" id="box" name="box" required>
+                JavaScript<input type="checkbox" id="box" name="box" required>
+                Java<input type="checkbox" id="box" name="box" required>
+                Python<input type="checkbox" id="box" name="box" required></div><br>
+
+            <div><label for="file"><b>Resume:<span style="color:red;">*</span></b></label>
+                <input type="file" id="name" name="file"placeholder="upload file" required>
+            </div><br>
+            <div><label for="img"><b>Upload Image:<span style="color:red;">*</span></b></label>
+                <input type="file" id="name" name="img"placeholder="upload img" required>
+            </div><br>
+
+            <div><label for="url"><b>LinkedIn url:</b></label>
+                <input type="url" id="name" name="url" >
+            </div><br>
+
+            <div >
+                <button id="r" type="reset">Reset</button>
+            
+                <button id="s" type="submit">Submit</button>
+            </div>
+
+              </form>
+    </div>
+</div>
+
+
+</body>
+
+
+</html>

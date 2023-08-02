@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(172, 175, 175);
+    padding: 20px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(223, 237, 238);
+    padding: 20px;
+ 
+}
+.image{
+    border-radius: 20vh;
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+ .Internship, .Education, .project {
+    margin-bottom: 30px;
+}
+
+
